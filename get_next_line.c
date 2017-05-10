@@ -14,7 +14,6 @@
 
 int		ft_ret(int fd, int *rd, char *str)
 {
-
 	if (fd == -1 || read(fd, str, 0) == -1)
 	{
 		*rd = -1;
